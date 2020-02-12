@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render a list of expenses 1`] = `
+<div
+  className="content-container"
+>
+  <Connect(ExpenseListFilters) />
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Expenses
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Expense
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Amount
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <ExpenseListItem
+      amount={50000}
+      createdAt={0}
+      description="bll"
+      id="123"
+      key="123"
+      note="something"
+    />
+    <ExpenseListItem
+      amount={10000}
+      createdAt={-432000000}
+      description="bill two"
+      id="1234"
+      key="1234"
+      note=""
+    />
+    <ExpenseListItem
+      amount={9500}
+      createdAt={432000000}
+      description="bill three"
+      id="12345"
+      key="12345"
+      note=""
+    />
+  </div>
+</div>
+`;
+
+exports[`render a paragraph with no expenses 1`] = `
+<div
+  className="content-container"
+>
+  <Connect(ExpenseListFilters) />
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Expenses
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Expense
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Amount
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <div
+      className="list-item list-item--message"
+    >
+       
+      <span>
+         No Expenses 
+      </span>
+       
+    </div>
+  </div>
+</div>
+`;

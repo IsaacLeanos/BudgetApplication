@@ -1,0 +1,23 @@
+.boxLayout{
+    align-items: center;
+    background-image:url('/images/skyline.jpg');
+    background-size:cover;
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    width:100vw;
+}
+
+.boxLayout__box{
+    background-color:fade-out(black,0.15);
+    border-radius:3px;
+    text-align:center;
+    width:25rem;
+    color: blanchedalmond;
+    padding:$l-size $m-size;
+}
+
+.boxLayout__title{
+    margin: 0 0 $m-size 0;
+    line-height: 1;
+}
